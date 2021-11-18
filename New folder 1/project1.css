@@ -1,0 +1,120 @@
+body {
+    color: cyan;
+    margin: 0px;
+    padding: 0px;
+    background: url('tree1.jpg');
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /*border:2px solid red;*/
+}
+
+.left img {
+    width: 95px;
+    filter: invert(100%);
+}
+
+.left div {
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.mid {
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    width: 50%;
+    margin: 15px 240px;
+    /*border:2px solid pink;*/
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /*border:2px solid greenyellow;*/
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: cyan;
+}
+
+.btn {
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px 10px;
+    background-color: yellowgreen;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    /*border: 2px solid white;
+    border-radius: 20px;*/
+    padding: 40px;
+    width: 33%;
+    margin: 100px 50px;
+    
+}
+
+.form-group input{
+    width: 400px;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    border: 2px solid white;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    font-size: x-large;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container button {
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    width: 92%;
+    margin: 20px auto;
+}
